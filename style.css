@@ -1,0 +1,156 @@
+
+*{
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif ;
+    font-size: 14px;
+}
+body
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+.celular
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.celular img
+{
+    height: 50rem;
+}
+.continuar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    gap: 15px;
+
+}
+.itens-continuar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    gap: 2px;
+    border: 1px solid lightgray;
+}
+.divisao:nth-child(1)
+{
+    min-height: 19rem;
+}
+.instagram-logo {
+    height: 3rem;
+}
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.profile-picture img {
+    height: 6rem;
+    
+}
+.login
+{
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 8px;
+}
+.logout
+{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+.not-account
+{
+    color: rgb(77, 74, 74);
+}
+.azul
+{
+    color: #0095f6;
+}
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.preto{
+    font-weight: bolder;
+}
+.download {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    gap: 10px;
+}
+
+.resp
+{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 670px) {
+    body {
+        background-color: rgb(243, 243, 243);
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .celular {
+        display: none;
+    }
+
+    .continuar {
+        width: 100%;
+    }
+    
+    .itens-continuar {
+        border: 1px solid transparent;
+    }
+}
