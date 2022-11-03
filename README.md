@@ -1,5 +1,5 @@
 # Copia pagina inicial do instagram
-Projeto desenvolvido no Bootcamp JavaScript Game Developer da DIO (Digital Inovation One) no intuito de treinar o conceito de CSS Flexbox e responsividade.  
+Projeto desenvolvido no intuito de treinar o conceito de CSS Flexbox e responsividade.  
   🛠️ Tecnologias usadas.  
-- HTML  
-- CSS  
+- HTML5 
+- CSS3 
